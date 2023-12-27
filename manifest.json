@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Anti Force Download",
+  "version": "0.1",
+
+  "action": {
+    "default_icon": {
+    }
+  },
+  "description": "Anti Force Download",
+  "homepage_url": "https://github.com/AlensoLopes/anti-forcedownload",
+  "icons": {
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.ecampus.unicaen.fr/*", "https://ecampus.unicaen.fr/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
