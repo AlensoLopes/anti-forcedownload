@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "Anti Force Download",
   "version": "0.1",
+  "author": "Alenso Lopes",
 
   "action": {
     "default_icon": {
