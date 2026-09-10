@@ -3,23 +3,35 @@
   "name": "Anti Force Download",
   "version": "0.1",
   "author": "Alenso Lopes",
-
   "action": {
-    "default_icon": {
-    }
+    "default_icon": {}
   },
   "description": "Anti Force Download",
   "homepage_url": "https://github.com/AlensoLopes/anti-forcedownload",
-  "icons": {
-  },
+  "icons": {},
   "permissions": [
     "activeTab",
     "scripting"
   ],
   "content_scripts": [
     {
-      "matches": ["https://www.ecampus.unicaen.fr/*", "https://ecampus.unicaen.fr/*"],
-      "js": ["script.js"]
+      "matches": [
+        "https://www.ecampus.unicaen.fr/*",
+        "https://ecampus.unicaen.fr/*",
+        "https://foad.ensicaen.fr/*",
+        "https://www.foad.ensicaen.fr/*"
+      ],
+      "js": [
+        "script.js"
+      ]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "a1b4dfed-5d78-4c63-aa75-59b7@osnela",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
 }
