@@ -4,6 +4,11 @@ Cette extension Chrome permet de modifier le comportement des liens de télécha
 
 ## Installation
 
+### Pour Firefox
+
+[Liens vers le Firefox Store](https://addons.mozilla.org/fr/firefox/addon/anti-force-download/)
+
+### Pour Chrome
 1. Clonez ce dépôt ou téléchargez le code source.
 
 ```bash
